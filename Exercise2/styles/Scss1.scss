@@ -1,0 +1,36 @@
+
+body
+{
+	ul{
+		list-style-type:none;
+		li{
+			display:inline-block;
+			img.smallpic{
+				width:150px;
+				height:150px;
+				
+				}
+			}
+		}				
+	
+		input{
+			display:none;
+			&:checked + .select {
+					opacity:1;
+					transition: opacity 1.0s ease-in-out;
+					}
+
+}
+	div{
+		position:relative;
+		img.select{
+					height: 300px;
+					left: 50px;    
+					top: 100px;
+					width: 300px;
+					opacity:0;
+					display:inline-block;
+					position:absolute;
+		}
+	}
+}

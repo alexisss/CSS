@@ -1,0 +1,145 @@
+body {
+  background: #cd8ff8;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #cd8ff8 0%, #9215f2 15%, #9215f2 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #cd8ff8), color-stop(15%, #9215f2), color-stop(100%, #9215f2));
+  /* Chrome,Safari4+ */
+  background-repeat: repeat-x;
+  padding: 0;
+  margin: 0;
+  color: white; }
+  body #header-container {
+    margin: 0 0 0 0; }
+  body #logo-container {
+    margin: 2px 0 6px 12px;
+    display: inline-block; }
+  body #reg-form-container {
+    float: right;
+    margin: 28px 116px 0 0; }
+    body #reg-form-container input {
+      background-color: #b35ef3;
+      border-radius: 25px;
+      border: 1px solid #67378b;
+      margin-bottom: 8px; }
+    body #reg-form-container label {
+      font-size: 12px; }
+    body #reg-form-container #btn-register {
+      background-color: #b35ef3;
+      color: white;
+      border-radius: 10px;
+      border-top-left: 0,2px solid #bfabd0;
+      border-right-bottom: 0,2px solid #4f2a6a;
+      margin-top: 4px;
+      padding: 4px 4px 4px 6px;
+      font-size: 12px;
+      font-weight: bold; }
+  body nav {
+    margin: 0 326px 40px 30px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    height: 42px; }
+    body nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0; }
+      body nav ul li {
+        display: inline-block;
+        margin-left: 20px; }
+        body nav ul li ul {
+          display: none;
+          position: absolute;
+          background: #cd8ff8;
+          /* Old browsers */
+          background: -moz-linear-gradient(top, #cd8ff8 0%, #9215f2 15%, #9215f2 100%);
+          /* FF3.6+ */
+          background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #cd8ff8), color-stop(15%, #9215f2), color-stop(100%, #9215f2));
+          /* Chrome,Safari4+ */
+          background-repeat: repeat-x;
+          padding: 0;
+          margin: 0;
+          color: white; }
+          body nav ul li ul li {
+            display: block; }
+            body nav ul li ul li a {
+              text-decoration: none; }
+              body nav ul li ul li a:hover {
+                text-decoration: underline; }
+        body nav ul li a {
+          text-decoration: none;
+          color: white;
+          font-size: 18px; }
+        body nav ul li:hover a {
+          text-decoration: underline; }
+        body nav ul li:hover ul {
+          display: block; }
+        body nav ul li:hover ul a {
+          text-decoration: none; }
+  body section {
+    float: left;
+    display: inline-block;
+    width: 900px; }
+    body section article {
+      display: inline-block;
+      margin: 0 0 18px 18px;
+      border: 1px solid #000;
+      border-radius: 15px;
+      padding: 25px 25px 25px 20px;
+      display: inline-block; }
+      body section article h1 {
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 25px;
+        margin: 0; }
+      body section article p {
+        font-size: 12px;
+        font-family: times new roman;
+        line-height: 14px; }
+      body section article footer p {
+        font-size: 14px;
+        float: right;
+        margin: 0; }
+        body section article footer p time {
+          font-family: calibri; }
+        body section article footer p a {
+          text-decoration: none;
+          color: #cca3f8; }
+  body aside {
+    display: inline-block;
+    float: right;
+    margin: 14px 54px 25px 36px;
+    width: 260px; }
+    body aside ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0; }
+      body aside ul li {
+        border: 1px solid #000;
+        border-radius: 15px;
+        padding: 16px 18px 24px 18px;
+        margin-bottom: 14px; }
+        body aside ul li h2 {
+          font-size: 16px;
+          font-weight: bold;
+          line-height: 25px;
+          margin: 0; }
+        body aside ul li a {
+          text-decoration: none;
+          color: #a496af; }
+        body aside ul li p {
+          font-size: 12px;
+          font-family: times new roman;
+          line-height: 14px; }
+        body aside ul li ul {
+          list-style-image: url("li-dot.png"); }
+          body aside ul li ul li {
+            border: none;
+            margin: 0;
+            padding: 0; }
+  body footer {
+    display: block; }
+    body footer p {
+      float: left;
+      font-weight: bold;
+      margin-top: 80px; }
+
